@@ -1,0 +1,14 @@
+[project]
+name = "modal-vibe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.57.1",
+    "fastapi[standard]>=0.116.0",
+    "jinja2>=3.1.6",
+    "modal>=1.0.5",
+    "pydantic>=2.11.7",
+    "python-multipart>=0.0.20",
+]
